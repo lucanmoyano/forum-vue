@@ -1,0 +1,84 @@
+{
+  "name": "foro-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-alignment": "^22.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^22.0.0",
+    "@ckeditor/ckeditor5-block-quote": "^22.0.0",
+    "@ckeditor/ckeditor5-code-block": "^22.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^23.2.0",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "^23.2.0",
+    "@ckeditor/ckeditor5-easy-image": "^22.0.0",
+    "@ckeditor/ckeditor5-editor-classic": "^22.0.0",
+    "@ckeditor/ckeditor5-essentials": "^22.0.0",
+    "@ckeditor/ckeditor5-font": "^22.0.0",
+    "@ckeditor/ckeditor5-heading": "^22.0.0",
+    "@ckeditor/ckeditor5-horizontal-line": "^22.0.0",
+    "@ckeditor/ckeditor5-image": "^22.0.0",
+    "@ckeditor/ckeditor5-link": "^22.0.0",
+    "@ckeditor/ckeditor5-list": "^22.0.0",
+    "@ckeditor/ckeditor5-media-embed": "^22.0.0",
+    "@ckeditor/ckeditor5-paragraph": "^22.0.0",
+    "@ckeditor/ckeditor5-table": "^22.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^22.0.0",
+    "@ckeditor/ckeditor5-vue": "^1.0.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.31",
+    "@fortawesome/free-solid-svg-icons": "^5.15.0",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
+    "axios": "^0.20.0",
+    "buefy": "^0.9.3",
+    "core-js": "^3.6.5",
+    "firebase": "^7.19.1",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^0.5.1",
+    "register-service-worker": "^1.7.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-vue": "^0.11.0",
+    "tiptap": "^1.30.0",
+    "tiptap-extensions": "^1.33.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuefire": "^2.2.4",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
